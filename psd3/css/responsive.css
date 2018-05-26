@@ -1,0 +1,304 @@
+
+/*		Default Layout: 960. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+
+
+.container{
+
+	width: 960px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+	
+	
+
+.container{
+
+	width: 95%;
+	display: block;
+	margin: 0 auto;
+}
+.header_content .headercontent_left{
+
+	width:50%;
+	margin-right: 3%;
+}
+.header_content .headercontent_right{
+
+	width:45%;
+}
+.headercontent_right .img_p img {
+    width: 40%;
+    margin-right: 0%;
+}
+
+
+.headercontent_right .img_p p {
+    width: 55%;
+}
+.fortfolio {
+    width: 30%;
+    
+    margin: 10px 1.3%;
+}
+.fortfolio img{
+	width:100%;
+	height: auto;
+}
+.bottomcontent {
+    width: 30%;
+    
+    
+}
+.bottomcontent {
+   
+    margin-right: 3%;
+    
+}
+}
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	
+.fortfolio img{
+	width:100%;
+	height: auto;
+}
+
+.container{
+	width: 98%;
+}
+nav{
+	display: none;
+}
+.logo_left {
+    margin-top: 2%;
+    margin-left: 25%;
+}
+.header_content .headercontent_left {
+    width: 98%;
+    
+    padding: 2%;
+    display: block;
+    float: none;
+}
+.header_content .headercontent_right {
+    width: 98%;
+    display: block;
+    float: none;
+    padding: 2%;
+}
+.headercontent_right .img_p img {
+    width: 64%;
+    margin-left: 15%;
+    float: none;
+}
+.headercontent_right .img_p p {
+    width: 98%;
+    float: none;
+}
+.fortfolio {
+    width: 98%;
+    float: none;
+    margin: 2% 1%;
+}
+.bottomcontent {
+    width: 98%;
+    float: none;
+    padding: 2%;
+}
+footer p{
+	text-align: center;
+}
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+
+.fortfolio img{
+	width:100%;
+	height: auto;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+	
+	
+.fortfolio img{
+	width:100%;
+	height: auto;
+}
+
+.container{
+	width: 98%;
+}
+nav{
+	display: none;
+}
+.logo_left {
+    margin-top: 2%;
+    margin-left: 25%;
+}
+.header_content .headercontent_left {
+    width: 98%;
+    
+    padding: 2%;
+    display: block;
+    float: none;
+}
+.header_content .headercontent_right {
+    width: 98%;
+    display: block;
+    float: none;
+    padding: 2%;
+}
+.headercontent_right .img_p img {
+    width: 64%;
+    margin-left: 15%;
+    float: none;
+}
+.headercontent_right .img_p p {
+    width: 98%;
+    float: none;
+}
+.fortfolio {
+    width: 98%;
+    float: none;
+    margin: 2% 1%;
+}
+.bottomcontent {
+    width: 98%;
+    float: none;
+    padding: 2%;
+}
+footer p{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2)} {
+	
+	
+	.fortfolio img{
+	width:100%;
+	height: auto;
+}
+@media only screen and (max-width: 767px) {
+	
+	
+.fortfolio img{
+	width:100%;
+	height: auto;
+}
+
+.container{
+	width: 98%;
+}
+nav{
+	display: none;
+}
+.logo_left {
+    margin-top: 2%;
+    margin-left: 25%;
+}
+.header_content .headercontent_left {
+    width: 98%;
+    
+    padding: 2%;
+    display: block;
+    float: none;
+}
+.header_content .headercontent_right {
+    width: 98%;
+    display: block;
+    float: none;
+    padding: 2%;
+}
+.headercontent_right .img_p img {
+    width: 64%;
+    margin-left: 15%;
+    float: none;
+}
+.headercontent_right .img_p p {
+    width: 98%;
+    float: none;
+}
+.fortfolio {
+    width: 98%;
+    float: none;
+    margin: 2% 1%;
+}
+.bottomcontent {
+    width: 98%;
+    float: none;
+    padding: 2%;
+}
+footer p{
+	text-align: center;
+}
+
+
+
+
